@@ -169,11 +169,9 @@ class List extends Component {
                     </div>
                     <figure>
                         <figcaption>Listen to the T-Rex:</figcaption>
-                        <audio id="animationMp3"
-                            controls
-                            src="./track.mp3">
-                                Your browser does not support the
-                                <code>audio</code> element.
+                        <audio id="animationMp3" controls>
+                            <source src="./track.mp3" type="audio/mpeg"/>
+                            <source src="./track.ogg" type="audio/ogg"></source>
                         </audio>
                     </figure>
                     <div className="pyro">
